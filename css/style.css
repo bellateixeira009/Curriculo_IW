@@ -1,0 +1,129 @@
+.color1 {color: #ff7d7d;}
+.color2 {color: #fff689;}
+.color1 {color: #4c2a3a;}
+.color2 {color: #683a49;}
+.color3 {color: #92555d;}
+.color4 {color: #c97a7a;}
+body{
+    background-color: white;
+}
+.fundobella{
+    background-color: white;
+}
+
+.navbar .container-fluid {
+  position: relative;
+}
+
+.navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+header {
+  background-color: transparent;
+}
+
+
+hr {
+  border: none;
+  width: 90%;
+  margin: 0 auto;
+  height: 6px;
+  background: linear-gradient(
+    to right,
+    #ffff00 0%,
+    #ff4500 50%,
+    #800080 100%
+  );
+}
+
+
+.logo{
+    width: 20%;
+    margin-left: 30px;
+}
+
+h2{
+    color: #92555d;
+    margin-bottom: 30px;
+}
+
+.minhafonte{
+    font-size: 1.4em;
+}
+
+.fonte1-3{
+    font-size: 1.2em;
+}
+
+.clearfix{
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.clearfix h2{
+    margin-bottom: 1em;
+}
+.clearfix img{
+    width: 250px;
+    border-radius: 15%}
+
+.compsocio{
+    margin: 50px 80px;
+}
+
+.card.corazul {
+  border-color: #6a7cda;
+  color: #6a7cda;
+}
+
+.card.corroxa {
+  border-color: #cf6aa7;
+  color: #cf6aa7;
+}
+
+.card.corrosa {
+  border-color: #e28576;
+  color: #e28576;
+}
+
+.card.coramarela {
+  border-color: #c9ad73;
+  color: #c9ad73;
+}
+
+.card.corverde {
+  border-color: #9ec495;
+  color: #9ec495;
+}
+
+.footer {
+  background: linear-gradient(
+    to right,
+    #fff689,
+    #c97a7a,
+    #92555d
+  );
+  color: #f9f0e6;
+  padding: 10px;
+}
+.footer p{
+    font-size: 1.2em;
+}
+
+.borda{
+    border-style: solid;
+    border-color: #c97a7a;
+    border-width: 2px 8px 10px 0;
+}
