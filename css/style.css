@@ -54,6 +54,10 @@ hr {
     margin-left: 30px;
 }
 
+h1{
+  margin-bottom: 50px;
+}
+
 h2{
     color: #92555d;
     margin-bottom: 30px;
@@ -129,6 +133,20 @@ h2{
 }
 
 
-.projetosSITES{
-  margin-top: 100px;
+#projetos{
+  margin-top: 150px;
+}
+
+.projetosSITES, .projetosJS{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+.carousel-caption a:hover{
+  color: #fff689;
 }
