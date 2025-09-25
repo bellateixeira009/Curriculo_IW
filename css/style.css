@@ -150,3 +150,35 @@ h2{
 .carousel-caption a:hover{
   color: #fff689;
 }
+
+#experienciaDANCA{
+  margin-top: 100px;
+}
+
+.DANCAcontainer{
+  background-color: #c97a7a;
+  margin: 30px;
+}
+
+.experiencia-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 30px;
+}
+
+.experiencia-item img {
+  width: 100px;
+  height: auto;
+}
+
+.conteudo {
+  flex: 1;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
