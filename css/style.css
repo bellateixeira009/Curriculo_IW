@@ -49,6 +49,7 @@ hr {
 }
 
 
+
 .logo{
     width: 20%;
     margin-left: 30px;
@@ -151,15 +152,21 @@ h2{
   color: #fff689;
 }
 
+.bckg{
+  background-color: #c97a7a;
+}
+
 #experienciaDANCA{
   margin-top: 100px;
 }
 
 .DANCAcontainer{
-  background-color: #c97a7a;
-  margin: 30px;
+  background-color: white;
+  margin: 40px;
 }
-
+.h1{
+  font-size: 4em;
+}
 .experiencia-item {
   display: flex;
   align-items: flex-start;
@@ -182,3 +189,6 @@ h2{
   gap: 10px;
 }
 
+.ciasacro{
+  max-width: 600px;
+}
