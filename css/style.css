@@ -226,3 +226,110 @@ footer {
   border-image-slice: 1;
   border-radius: 5px;
 }
+
+
+
+@media (max-width: 1015px) {
+  .navbar-brand .logo {
+    width: 40%;
+    margin-left: 10px;
+  }
+  .navbar-collapse {
+    background: rgba(172, 172, 172, 0.596); 
+    width: 200px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 1050;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projetosSITES, .projetosJS{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .h1 {
+    font-size: 2em;
+  }
+
+  .DANCAcontainer,
+  .PEQUENOScont {
+    margin: 30px;
+    padding: 10px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+  }
+
+  .experiencia-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .experiencia-item video,
+  .experiencia-item img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .conteudo .display {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .conteudo .display hr,
+  .conteudo .display h4 {
+    margin: 0;
+  }
+
+  .conteudo p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+
+  .conteudo ul {
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+
+  .conteudo ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .PEQUENOScont .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form .row.mb-3 {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+}
